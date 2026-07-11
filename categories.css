@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4CAF50, #3F51B5);
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    height:500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.income {
+    color: green;
+    font-weight: bold;
+}
+
+.expense {
+    color: red;
+    font-weight: bold;
+}
+*{
+    font-family: kanit, 'Times New Roman', Roboto, serif;
+}
+.dash{
+    top:0;
+    margin-top: 0px;
+    border: 10px black;
+    background-color: white;
+}
+.nav-pills .nav-link {
+    color: rgba(0, 0, 0, 0.66) !important;
+    font-size: 20px;
+  
+}
+.nav-pills {
+    padding: 10px;
+    margin-right: 20px;
+}
+.btn-danger{
+    font-size: 20px;
+}
+.background{
+    background-color: greenyellow;
+}
+*{
+    font-family: kanit, 'Times New Roman', Roboto, serif;
+}
+.adnc{
+    margin:50px;
+}
+h2{
+   padding:20px;
+   font-style: bold;
+}
+.adnc{
+    font-size: 1.2rem;
+    padding:20px;
+}
+#adc{
+    width:250px;
+    position: center;
+    border-radius: 5px;
+    margin-left: 20%;
+    font-size: 25px;
+}
+.inp{
+    margin:30px;
+}
+.adcbtn{
+    margin:20px;
+}
+.bold-heading {
+    font-weight: bold;
+}

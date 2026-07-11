@@ -1,0 +1,151 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #3F51B5);
+    
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+
+.register-container {
+    position: absolute;
+    top: 5px; 
+    right: 20px;
+}
+
+.register-btn {
+    background-color: #d63384;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 20px; /* Space above */
+}
+
+.register-btn:hover {
+    background-color: #c2185b;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* Login form styles */
+.login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Input container */
+.input-container {
+    font-size: 1.2rem;
+    position: relative;
+    margin-bottom: 15px;
+    width:85%;
+}
+input{
+    font-size: 1.2rem;
+}
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #aaa;
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    padding: 12px 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1c1f1c;
+}
+
+/* Login button */
+.login-btn {
+    background: linear-gradient(90deg, #4facfe, #38ef7d);
+    color: rgb(251, 245, 245);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, #38ef7d, #4facfe);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .login-form {
+        width: 90%;
+    }
+}
+
+.dash{
+    margin-top: 10px;
+    border: 10px black;
+    margin-right: 2px;
+}
+.dash {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 15px; /* Add padding for better spacing */
+    border-bottom: 1px solid #ddd;
+    position: fixed; /* Keeps navbar fixed at the top */
+    width: auto; /* Auto width to fit content */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+p{
+    font-size: 1.5rem;
+}
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}

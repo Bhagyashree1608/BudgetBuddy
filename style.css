@@ -1,0 +1,101 @@
+*{
+    font-family: kanit, 'Times New Roman', Roboto, serif;
+}
+.dash{
+    margin-top: 10px;
+    border: 10px black;
+    
+}
+.nav-pills .nav-link {
+    color: rgba(0, 0, 0, 0.66) !important;
+    font-size: 20px;
+  
+}
+.nav-pills {
+    padding: 10px;
+    margin-right: 20px;
+}
+.btn-danger{
+    font-size: 24px;
+}
+.background{
+    background-color: greenyellow;
+}
+.playgrd {
+    background: linear-gradient(to right, #4CAF50, #3F51B5); /* Green to Blue Gradient */
+    padding: 100px 80px;
+    color: white;
+    height:600px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3 rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    color: #f1f1f1;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #f1f1f1;
+}
+
+.get-started {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+}
+.get-started:hover{
+    background-color: white;
+    color:black;
+}
+.joinus {
+    margin-top:20px;
+    background: rgb(120, 120, 252);
+    padding: 20px 20px;
+    color: white;
+    height:200px;
+    text-align: center;
+}
+.intext{
+    font-size: 1.5rem;
+    color: #f1f1f1;
+}
+.signup{
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    background-color: white !important;
+}
+.signup:hover{
+    color:black;
+}
+
+.nav-link:hover {
+    background-color: #a2a9a3 !important; 
+    color: white !important; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

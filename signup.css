@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px; 
+   
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 60%;
+    height: 600px;
+    margin-right: 10%;
+}
+.insigncard {
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    background: linear-gradient(to right, #4CAF50, #3F51B5);
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: linear-gradient(to right, #3F51B5, #4CAF50); /* Reverse Gradient on Hover */
+    opacity: 0.9;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px; /* Space between inputs */
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 16px;
+}
+
+.input-container input {
+    width: 90%;
+    padding: 10px 10px 10px 35px; /* Space for icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+.input-container .fa-lock {
+    left: 10px;
+    top:45%;
+}
+.input-container i.fa-eye,
+.input-container i.fa-eye-slash {
+    position: absolute;
+    left: 340px;
+    cursor: pointer;
+    color: #888;
+}
+.input-container input::placeholder {
+    color: #aaa;
+}
+.input-container #togglePassword {
+    left: 95%;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    padding-top:5px;
+}
+#back1{
+    width: 90%;
+    height: 70vh; /* Full viewport height */
+    object-fit: cover; /* Maintains aspect ratio and covers the area */
+    display: block
+}
+.dash{
+    margin-top: 10px;
+    border: 10px black;
+    margin-right: 2px;
+}
+/* Navbar styles */
+.dash {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 15px; /* Add padding for better spacing */
+    border-bottom: 1px solid #ddd;
+    position: fixed; /* Keeps navbar fixed at the top */
+    width: auto; /* Auto width to fit content */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #4caf50 !important; /* Green hover effect */
+}
+
+/* Add padding to body to prevent content from overlapping navbar */
+body {
+    padding-top: 50px; /* Ensures content does not hide under navbar */
+    margin: 0;
+    background-color: #f4f4f4;
+}
