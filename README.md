@@ -223,7 +223,7 @@ Features:
 ---
 ## 📸 Screenshots
 
-![Home Page]
+-Home Image
 <img width="1917" height="1092" alt="image" src="https://github.com/user-attachments/assets/b13d313c-dfe2-4d84-91ca-f95d50c58deb" />
 
 ---
